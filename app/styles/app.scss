@@ -1,11 +1,7 @@
 @import 'bootstrap';
+
 $enable-flex: true;
 
-.home-header {
-  background: #212a3d;
-  background: -moz-linear-gradient(-45deg, #212a3d 0%, #273555 44%, #1c89ff 100%);
-  background: -webkit-linear-gradient(-45deg, #212a3d 0%,#273555 44%,#1c89ff 100%);
-  background: linear-gradient(135deg, #212a3d 0%,#273555 44%,#1c89ff 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#212a3d', endColorstr='#1c89ff',GradientType=1 );
-  height: 800px;
-}
+@import 'common';
+@import 'header';
+@import 'home';

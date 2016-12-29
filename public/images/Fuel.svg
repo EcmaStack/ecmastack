@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="129px" height="50px" viewBox="0 0 129 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>Fuel</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="-3.9196694%" y1="-46.4517554%" x2="96.4850466%" y2="185.182373%" id="linearGradient-1">
+            <stop stop-color="#E22A70" offset="0%"></stop>
+            <stop stop-color="#EB4452" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="EcmaStack" transform="translate(-966.000000, -576.000000)" stroke="url(#linearGradient-1)" stroke-width="2">
+            <g id="Hero-section">
+                <g id="Illustration" transform="translate(804.000000, 178.000000)">
+                    <g id="Fuel" transform="translate(163.000000, 398.000000)">
+                        <path d="M0,1 L28.0713377,1" id="Line"></path>
+                        <path d="M8,9 L36.0713377,9" id="Line-Copy-52"></path>
+                        <path d="M19,17 L47.0713377,17" id="Line-Copy-53"></path>
+                        <path d="M30,25 L52.0699997,25" id="Line-Copy-54"></path>
+                        <path d="M50,33 L78.0713377,33" id="Line-Copy-55"></path>
+                        <path d="M50,1 L78.0713377,1" id="Line-Copy-57"></path>
+                        <path d="M56,41 L72,41" id="Line-Copy-56"></path>
+                        <path d="M56,9 L72,9" id="Line-Copy-58"></path>
+                        <path d="M59,17 L69,17" id="Line-Copy-59"></path>
+                        <path d="M59,49 L69,49" id="Line-Copy-60"></path>
+                        <path d="M98,1 L126.071338,1" id="Line" transform="translate(112.500000, 1.000000) scale(-1, 1) translate(-112.500000, -1.000000) "></path>
+                        <path d="M90,9 L118.071338,9" id="Line-Copy-52" transform="translate(104.500000, 9.000000) scale(-1, 1) translate(-104.500000, -9.000000) "></path>
+                        <path d="M79,17 L107.071338,17" id="Line-Copy-53" transform="translate(93.500000, 17.000000) scale(-1, 1) translate(-93.500000, -17.000000) "></path>
+                        <path d="M74.93,25 L97,25" id="Line-Copy-54" transform="translate(85.965000, 25.000000) scale(-1, 1) translate(-85.965000, -25.000000) "></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
