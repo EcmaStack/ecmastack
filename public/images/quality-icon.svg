@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="332px" height="283px" viewBox="0 0 332 283" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 7</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M72.3675242,83.3801401 C73.1388348,82.4348244 73.6010363,81.2275423 73.6010363,79.9121875 C73.6010363,78.4402302 73.0190453,77.1012428 72.0721139,76.1143432 C73.0193477,75.1280277 73.6010363,73.7884258 73.6010363,72.3128125 C73.6010363,71.2685503 73.308119,70.2912122 72.799785,69.4590366 C74.4326202,68.5079736 75.5284974,66.7388255 75.5284974,64.7134375 C75.5284974,61.688425 73.0705069,59.225 70.038422,59.225 L54.6766039,59.225 C51.6410621,59.225 49.1865285,61.6822572 49.1865285,64.7134375 C49.1865285,65.7576997 49.4794457,66.7350378 49.9877798,67.5672134 C48.3549445,68.5182764 47.2590674,70.2874245 47.2590674,72.3128125 C47.2590674,73.7847698 47.8410584,75.1237572 48.7879898,76.1106568 C47.840756,77.0969723 47.2590674,78.4365742 47.2590674,79.9121875 C47.2590674,82.3334771 48.8338452,84.3949704 51.0173154,85.1213815 C50.6675893,85.8439074 50.4715026,86.6548098 50.4715026,87.5115625 C50.4715026,90.536575 52.9266075,93 55.9551329,93 L68.759893,93 C71.789036,93 74.2435233,90.5427428 74.2435233,87.5115625 C74.2435233,85.8663048 73.5172776,84.3871705 72.3675242,83.3801401 Z" id="path-1"></path>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="28.2694301" height="33.775" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <rect id="path-3" x="81" y="63" width="20" height="30" rx="2"></rect>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="20" height="30" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+        <linearGradient x1="-3.9196694%" y1="-46.4517554%" x2="65.4076926%" y2="138.297724%" id="linearGradient-5">
+            <stop stop-color="#E22A70" offset="0%"></stop>
+            <stop stop-color="#EB4452" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-3.9196694%" y1="-46.4517554%" x2="96.4850466%" y2="185.182373%" id="linearGradient-6">
+            <stop stop-color="#E22A70" offset="0%"></stop>
+            <stop stop-color="#EB4452" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="EcmaStack" transform="translate(-709.000000, -1692.000000)">
+            <g id="What-it's-like-to-work-with-us" transform="translate(237.000000, 954.000000)">
+                <g id="Guaranteed-quality" transform="translate(0.000000, 738.000000)">
+                    <g id="Group-7" transform="translate(472.000000, 0.000000)">
+                        <g id="Background-circles" fill-opacity="0.1" fill="#A4CFFF">
+                            <circle id="big-circle" cx="192.5" cy="139.5" r="139.5"></circle>
+                            <circle id="small-circle" cx="34.5" cy="248.5" r="34.5"></circle>
+                        </g>
+                        <g id="Illustration" transform="translate(142.000000, 91.000000)" stroke-linecap="round" stroke-linejoin="round">
+                            <g id="Paper" transform="translate(37.429275, 36.529275) rotate(-90.000000) translate(-37.429275, -36.529275) translate(0.929275, 0.029275)" stroke="#1C89FF" stroke-width="2">
+                                <path d="M64.0292746,71.5171046 L2.03257324,72.070802 C0.926181957,72.0806833 0.0292746114,71.1837155 0.0292746114,70.0848326 L0.0292746114,10.0745864 C0.0292746114,8.96788454 0.918778688,8.07072539 2.02952562,8.07072539 L58.1384984,8.07072539" id="Rectangle-11"></path>
+                                <path d="M63.3212435,71.45625 C68.4663626,71.45625 72.6373057,67.8321503 72.6373057,63.3615967 C72.6373057,58.8910431 68.4663626,55.2669434 63.3212435,55.2669434 L63.3212435,-3.88578059e-15" id="Oval-15"></path>
+                                <path d="M62.1571798,71.45625 C65.9585424,71.45625 69.0401557,68.7786604 69.0401557,65.4756863 C69.0401557,62.1727121 65.9585424,59.4951225 62.1571798,59.4951225 L59.1450777,59.225 L59.1450777,0.64375" id="Oval-15-Copy-2"></path>
+                                <path d="M72.6373057,63.0824707 L72.6373057,8.09465332 C72.6373057,3.62409974 68.4663626,-3.88578059e-15 63.3212435,-3.88578059e-15" id="Oval-15-Copy"></path>
+                            </g>
+                            <g id="Text" transform="translate(15.000000, 23.000000)" stroke="#1C89FF" stroke-width="2">
+                                <path d="M1,2 L32,2" id="Line"></path>
+                                <path d="M1,9 L37,9" id="Line-Copy-62"></path>
+                                <path d="M1,16 L32,16" id="Line-Copy-63"></path>
+                            </g>
+                            <use id="fist" stroke="#1C89FF" mask="url(#mask-2)" stroke-width="4" fill="#F5FAFF" xlink:href="#path-1"></use>
+                            <path d="M67,92 C67,92 87.0932642,91.4125 87.0932642,84.9045387 L87.0932642,70.4738419 C87.0932642,67.0783839 82.1431714,67.6211455 81.9533679,65.01875 C81.7635643,62.4163545 74.8860104,55.0511387 71.0310881,52.7875 C67.1761658,50.5238613 66.8549223,44.4681839 66.5336788,42.4875 C66.2775611,40.908361 64.2849741,39.9147194 62.357513,41.8954032 C60.4300518,43.8760871 61.0725389,52.14375 62.357513,55.684375 C63.642487,59.225 65.5,61.5 65.5,61.5" id="thumb" stroke="#1C89FF" stroke-width="2" fill="#F5FAFF"></path>
+                            <use id="clothes" stroke="#1C89FF" mask="url(#mask-4)" stroke-width="4" fill="#A4CFFF" xlink:href="#path-3"></use>
+                            <path d="M22.0070625,47.8292419 C19.8428474,64.968577 18.5256086,61.3516402 25.4798807,52.1619812 C27.0579733,50.0766252 25.4496469,56.1673717 27.6338436,54.2925171 C30.3052327,51.9994698 32.3292809,44.8043509 35.1667532,46.8875061 C46.4443108,55.1670239 11.4008701,74.3561137 50.0499908,45.0625" id="sign" stroke="url(#linearGradient-5)" stroke-width="2"></path>
+                            <g id="Sparkles-top" transform="translate(84.823438, 37.931776) scale(1, -1) rotate(91.000000) translate(-84.823438, -37.931776) translate(79.823438, 33.931776)" stroke="#1C89FF" stroke-width="2">
+                                <path d="M1.63092866,-2.44249065e-14 L-2.36477504e-13,4.90240385" id="Line"></path>
+                                <path d="M2.17457154,7.08125 L9.24192906,3.81298077" id="Line"></path>
+                            </g>
+                            <g id="Stripes" transform="translate(105.367876, 71.100000)" stroke="url(#linearGradient-6)" stroke-width="2">
+                                <path d="M0.632124352,1.9 L20.6321244,1.9" id="Line-Copy-57"></path>
+                                <path d="M0.632124352,7.9 L10.6321244,7.9" id="Line-Copy-58"></path>
+                                <path d="M0.632124352,13.94375 L6.63212435,13.94375" id="Line-Copy-59"></path>
+                            </g>
+                            <g id="Sparkles-bottom" transform="translate(36.319629, 90.434610) scale(-1, 1) rotate(-277.000000) translate(-36.319629, -90.434610) translate(31.319629, 86.434610)" stroke="#1C89FF" stroke-width="2">
+                                <path d="M1.63092866,-1.18571819e-13 L-2.49800181e-13,4.90240385" id="Line-Copy-65"></path>
+                                <path d="M2.17457154,7.08125 L9.24192906,3.81298077" id="Line-Copy-66"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

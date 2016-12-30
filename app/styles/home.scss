@@ -37,3 +37,32 @@
     }
   }
 }
+
+
+.home-our-process {
+  padding: 100px 0;
+
+  &.container {
+    max-width: 798px;
+  }
+
+  .section-title {
+    margin-bottom: 50px;
+  }
+
+  .process-block {
+    margin-bottom: 50px;
+  }
+
+  .block-title {
+    color: #0088FF;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    font-weight: 300;
+  }
+
+  .block-description {
+    font-size: 18px;
+    color: #4F678B;
+  }
+}

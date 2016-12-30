@@ -5,3 +5,18 @@
   border-radius: 3px;
   padding: 20px 15px;
 }
+
+h2 {
+  color: #1F2A3E;
+  font-size: 36px;
+  font-weight: 500;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+img {
+  max-width: 100%;
+}
