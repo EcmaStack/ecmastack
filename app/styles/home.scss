@@ -38,16 +38,15 @@
   }
 }
 
+.section-title {
+  margin-bottom: 50px;
+}
 
 .home-our-process {
   padding: 100px 0;
 
   &.container {
     max-width: 798px;
-  }
-
-  .section-title {
-    margin-bottom: 50px;
   }
 
   .process-block {
@@ -64,5 +63,25 @@
   .block-description {
     font-size: 18px;
     color: #4F678B;
+  }
+}
+
+.home-services {
+  background: #E22A70;
+  padding: 100px 0;
+  color: #fff;
+
+  .service-icon {
+    margin: 0 auto 30px;
+    display: block;
+  }
+
+  .service-name {
+    margin-bottom: 25px;
+    font-size: 24px;
+  }
+
+  .service-description {
+    font-size: 18px;
   }
 }

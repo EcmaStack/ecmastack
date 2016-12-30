@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="93px" height="79px" viewBox="0 0 93 79" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>Experience illustration</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="18" y="20" width="53" height="40" rx="2"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="53" height="40" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="EcmaStack" transform="translate(-669.000000, -2322.000000)">
+            <g id="About" transform="translate(0.000000, 2112.000000)">
+                <g id="Seamless-user-experience" transform="translate(600.000000, 210.000000)">
+                    <g id="Experience-illustration" transform="translate(69.000000, 0.000000)">
+                        <circle id="circle-bg" fill-opacity="0.1" fill="#FFFFFF" cx="44.5" cy="39.5" r="34.5"></circle>
+                        <use id="base" stroke="#FFFFFF" mask="url(#mask-2)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" xlink:href="#path-1"></use>
+                        <path d="M20,29 L70,29" id="divider" stroke="#FFFFFF" stroke-width="2" stroke-linecap="square" stroke-linejoin="round"></path>
+                        <g id="Webpage-handles" transform="translate(22.000000, 24.000000)" fill="#FFFFFF">
+                            <circle id="Oval-24" cx="1" cy="1" r="1"></circle>
+                            <circle id="Oval-24-Copy" cx="5" cy="1" r="1"></circle>
+                            <circle id="Oval-24-Copy-2" cx="9" cy="1" r="1"></circle>
+                        </g>
+                        <path d="M32,40 C33.1045695,40 34,39.1045695 34,38 C32.5,38 31,38 30,38 C30,39.1045695 30.8954305,40 32,40 Z" id="Oval-24-Copy-2" fill="#FFFFFF" transform="translate(32.000000, 39.000000) scale(1, -1) translate(-32.000000, -39.000000) "></path>
+                        <path d="M26.0349981,44.3218169 C26.779581,44.7432804 27.6095898,45 28.5,45 C29.4157685,45 30.2676463,44.7284497 31.0284093,44.2854091" id="Oval-25" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M25,40 C26.1045695,40 27,39.1045695 27,38 C25.5,38 24,38 23,38 C23,39.1045695 23.8954305,40 25,40 Z" id="Oval-24-Copy-3" fill="#FFFFFF" transform="translate(25.000000, 39.000000) scale(1, -1) translate(-25.000000, -39.000000) "></path>
+                        <path d="M59.8358326,48.0819142 L59.8358326,50.4389457 L65.7641165,46.4867564 L59.8358326,42.5345671 L59.8358326,44.9201628 L55.2732349,44.9552436 L55.2732349,48.116995 L59.8358326,48.0819142 Z" id="cursor" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" transform="translate(60.518676, 46.486756) rotate(-136.000000) translate(-60.518676, -46.486756) "></path>
+                        <g id="Text" transform="translate(41.000000, 34.000000)" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M0,1 L20,1" id="Line"></path>
+                            <path d="M0,5 L13.8888889,5" id="Line-Copy-69"></path>
+                            <path d="M0,9 L8.88888889,9" id="Line-Copy-70"></path>
+                            <path d="M0,13 L10.5555556,13" id="Line-Copy-71"></path>
+                            <path d="M0,17 L6.66666667,17" id="Line-Copy-72"></path>
+                        </g>
+                        <circle id="dot" fill="#FFFFFF" cx="79.5" cy="9.5" r="1.5"></circle>
+                        <circle id="dot" fill="#FFFFFF" cx="90.5" cy="39.5" r="2.5"></circle>
+                        <circle id="dot" fill="#FFFFFF" cx="15.5" cy="73.5" r="1.5"></circle>
+                        <circle id="dot" fill="#FFFFFF" cx="18.5" cy="2.5" r="2.5"></circle>
+                        <circle id="dot" fill="#FFFFFF" cx="1.5" cy="43.5" r="1.5"></circle>
+                        <circle id="dot" fill="#FFFFFF" cx="68.5" cy="76.5" r="2.5"></circle>
+                        <circle id="dot" fill="#FFFFFF" cx="2.5" cy="69.5" r="2.5"></circle>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

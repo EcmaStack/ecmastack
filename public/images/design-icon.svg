@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="77px" height="74px" viewBox="0 0 77 74" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>Design illustration</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="EcmaStack" transform="translate(-267.000000, -2323.000000)">
+            <g id="About" transform="translate(0.000000, 2112.000000)">
+                <g id="Gorgeous-graphic-design" transform="translate(179.000000, 212.000000)">
+                    <g id="Design-illustration" transform="translate(85.000000, 0.000000)">
+                        <circle id="circle-bg" fill-opacity="0.1" fill="#FFFFFF" cx="41.5" cy="38.5" r="34.5"></circle>
+                        <g id="Diamond" transform="translate(19.000000, 18.000000)" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline id="Path-16" points="31.5425548 19.7090277 33.8684211 11.4186992 22.9736842 0.861788618 11.3684211 11.203252 12.9296235 17.1618014 22.6184211 46 29.8538245 25.7283458"></polyline>
+                            <polyline id="Path-17" points="33.75 11.203252 33.6315789 0.861788618 44.7631579 11.203252 23 46"></polyline>
+                            <polyline id="Path-17-Copy" transform="translate(11.250000, 23.430894) scale(-1, 1) translate(-11.250000, -23.430894) " points="11.4868421 11.203252 11.3684211 0.861788618 22.5 11.203252 0 46"></polyline>
+                            <path d="M0,11.1129032 L43.1052632,11.1129032" id="Path-18"></path>
+                            <path d="M11.6052632,0.85483871 L33.6315789,0.85483871" id="Path-18-Copy"></path>
+                        </g>
+                        <g id="Sparkles-left" transform="translate(7.880932, 7.706618) scale(-1, 1) rotate(29.000000) translate(-7.880932, -7.706618) translate(2.880932, 2.206618)" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M10,7 L6.54817777,10.5718672 L10,7 Z" id="Path-19"></path>
+                            <path d="M-2.74225087e-14,2.93098879e-14 L-2.74225087e-14,7 L-2.74225087e-14,2.93098879e-14 Z" id="Path-19-Copy" transform="translate(0.500000, 3.500000) scale(-1, 1) translate(-0.500000, -3.500000) "></path>
+                        </g>
+                        <g id="Sparkles-right" transform="translate(74.880932, 7.706618) rotate(29.000000) translate(-74.880932, -7.706618) translate(69.880932, 2.206618)" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M10,7 L6.54817777,10.5718672 L10,7 Z" id="Path-19"></path>
+                            <path d="M7.02771175e-14,2.48689958e-14 L7.02771175e-14,7 L7.02771175e-14,2.48689958e-14 Z" id="Path-19-Copy" transform="translate(0.500000, 3.500000) scale(-1, 1) translate(-0.500000, -3.500000) "></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

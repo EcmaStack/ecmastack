@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="83px" height="69px" viewBox="0 0 83 69" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>Code illustration</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="14" y="15" width="53" height="40" rx="2"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="53" height="40" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="EcmaStack" transform="translate(-1084.000000, -2327.000000)">
+            <g id="About" transform="translate(0.000000, 2112.000000)">
+                <g id="Clean-code" transform="translate(1019.000000, 215.000000)">
+                    <g id="Code-illustration" transform="translate(66.000000, 0.000000)">
+                        <circle id="circle-bg" fill-opacity="0.1" fill="#FFFFFF" cx="40.5" cy="34.5" r="34.5"></circle>
+                        <use id="base" stroke="#FFFFFF" mask="url(#mask-2)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" xlink:href="#path-1"></use>
+                        <path d="M16,24 L66,24" id="divider" stroke="#FFFFFF" stroke-width="2" stroke-linecap="square" stroke-linejoin="round"></path>
+                        <g id="Webpage-handles" transform="translate(18.000000, 19.000000)" fill="#FFFFFF">
+                            <circle id="Oval-24" cx="1" cy="1" r="1"></circle>
+                            <circle id="Oval-24-Copy" cx="5" cy="1" r="1"></circle>
+                            <circle id="Oval-24-Copy-2" cx="9" cy="1" r="1"></circle>
+                        </g>
+                        <g id="Text" transform="translate(47.000000, 29.000000)" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M0,1 L12,1" id="Line"></path>
+                            <path d="M0,5 L8.33333333,5" id="Line-Copy-69"></path>
+                            <path d="M0,9 L5.33333333,9" id="Line-Copy-70"></path>
+                            <path d="M9,9 L16,9" id="Line-Copy-73"></path>
+                            <path d="M0,13 L6.33333333,13" id="Line-Copy-71"></path>
+                            <path d="M0,17 L4,17" id="Line-Copy-72"></path>
+                            <path d="M10,13 L14,13" id="Line-Copy-74"></path>
+                            <path d="M12,5 L14,5" id="Line-Copy-75"></path>
+                            <path d="M8,17 L10,17" id="Line-Copy-76"></path>
+                        </g>
+                        <polyline id="Path-4" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" points="25 30 21 34 25 38"></polyline>
+                        <polyline id="Path-4-Copy" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" transform="translate(39.000000, 44.000000) scale(-1, 1) translate(-39.000000, -44.000000) " points="41 40 37 44 41 48"></polyline>
+                        <path d="M35,30 L26,48" id="Line" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <g id="Plus" transform="translate(0.000000, 5.000000)" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M3,0 L3,6" id="Line"></path>
+                            <path d="M6,3 L0,3" id="Line-Copy-64"></path>
+                        </g>
+                        <g id="Plus" transform="translate(75.000000, 58.000000)" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M3,0 L3,6" id="Line"></path>
+                            <path d="M6,3 L0,3" id="Line-Copy-64"></path>
+                        </g>
+                        <g id="Plus" transform="translate(0.000000, 58.000000)" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M3,0 L3,6" id="Line"></path>
+                            <path d="M6,3 L0,3" id="Line-Copy-64"></path>
+                        </g>
+                        <g id="Plus" transform="translate(75.000000, 5.000000)" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M3,0 L3,6" id="Line"></path>
+                            <path d="M6,3 L0,3" id="Line-Copy-64"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
