@@ -117,6 +117,45 @@
   }
 }
 
+.home-clients {
+  padding: 50px 0;
+  background: #212A3D;
+
+  .container {
+    display: flex;
+  }
+
+  .client-logo {
+    flex: 1;
+    max-height: 43px;
+  }
+} // end home-clients
+
+.home-mvp {
+  background: url(/images/mvp-cake.svg) no-repeat center 50px #fff;
+  text-align: center;
+  padding: 200px 0 100px;
+
+  .container {
+    max-width: 798px;
+  }
+
+  .home-mvp-title {
+    font-size: 36px;
+    margin-bottom: 40px;
+    em {
+      font-style: normal;
+      color: #0088FF;
+    }
+  }
+
+  .home-mvp-subtitle {
+    color: #6E7785;
+    font-size: 24px;
+  }
+
+} // end home-cta
+
 
 .footer-home {
   height: 728px;

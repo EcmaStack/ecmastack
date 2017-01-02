@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="332px" height="283px" viewBox="0 0 332 283" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 8</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="-3.9196694%" y1="-46.4517554%" x2="96.4850466%" y2="185.182373%" id="linearGradient-1">
+            <stop stop-color="#E22A70" offset="0%"></stop>
+            <stop stop-color="#EB4452" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-3.9196694%" y1="-46.4517554%" x2="100%" y2="150.911458%" id="linearGradient-2">
+            <stop stop-color="#E22A70" offset="0%"></stop>
+            <stop stop-color="#EB4452" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="EcmaStack" transform="translate(-528.000000, -4455.000000)">
+            <g id="Contact" transform="translate(335.000000, 4455.000000)">
+                <g id="Group-8" transform="translate(193.000000, 0.000000)">
+                    <g id="Background-circles" fill-opacity="0.1" fill="#A4CFFF">
+                        <circle id="big-circle" cx="192.5" cy="139.5" r="139.5"></circle>
+                        <circle id="small-circle" cx="34.5" cy="248.5" r="34.5"></circle>
+                    </g>
+                    <g id="Stripes-right" transform="translate(267.000000, 98.000000)" stroke="url(#linearGradient-1)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M0.632124352,1.9 L20.6321244,1.9" id="Line-Copy-57"></path>
+                        <path d="M0.632124352,7.9 L10.6321244,7.9" id="Line-Copy-58"></path>
+                        <path d="M0.632124352,13.94375 L6.63212435,13.94375" id="Line-Copy-59"></path>
+                    </g>
+                    <g id="Stripes-left" transform="translate(107.500000, 106.000000) scale(-1, 1) translate(-107.500000, -106.000000) translate(97.000000, 98.000000)" stroke="url(#linearGradient-1)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M0.632124352,1.9 L20.6321244,1.9" id="Line-Copy-57"></path>
+                        <path d="M0.632124352,7.9 L10.6321244,7.9" id="Line-Copy-58"></path>
+                        <path d="M0.632124352,13.94375 L6.63212435,13.94375" id="Line-Copy-59"></path>
+                    </g>
+                    <g id="Cake" transform="translate(137.000000, 48.000000)">
+                        <path d="M10.5886225,89.1667058 C5.635524,88.1868914 2.72492713,87.4445509 2.72492713,87.4445509 C2.32378392,87.3457932 1.99859309,86.9275672 1.99859309,86.5160777 L1.99859309,25.162244 L1.99859309,25.162244 C1.99859309,24.7482201 2.33503547,24.4125874 2.74714939,24.4125874 L108.371495,24.4125874 C108.784911,24.4125874 109.120051,24.7507545 109.120051,25.162244 L109.120051,86.5160777 C109.120051,86.9301016 108.796764,87.346153 108.392987,87.4442517 C108.392987,87.4442517 83.4356769,93.8129371 55.559322,93.8129371 C43.7596542,93.8129371 32.4817276,92.6715488 23.3980086,91.3550394" id="main-container" stroke="#A4CFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M2.02936308,50.7735125 C12.9894229,52.7660697 32.3307249,55 54.3617925,55 C78.1476987,55 98.7982784,52.5468702 109.150821,50.284965 L109.067051,46.3566434 C109.067051,46.3566434 88.4470239,50.1610137 54.3617925,50.2229894 C20.2765612,50.284965 2.02936308,46.3566434 2.02936308,46.3566434 L2.02936308,50.7735125 Z" id="middle-layer" stroke="#A4CFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill-opacity="0.1" fill="#A4CFFF"></path>
+                        <path d="M2.02936308,72.228058 C12.9894229,74.2206151 32.3307249,76.5 54.3617925,76.5 C76.3928602,76.5 98.7982784,74.0014156 109.150821,71.7395105 L109.067051,67.8111888 C109.067051,67.8111888 88.4470239,71.6155592 54.3617925,71.6775348 C20.2765612,71.7395105 2.02936308,67.8111888 2.02936308,67.8111888 L2.02936308,72.228058 Z" id="bottom-layer" stroke="#A4CFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill-opacity="0.1" fill="#A4CFFF"></path>
+                        <g id="Topping" transform="translate(0.000000, 14.059441)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M4.0190822,5.51354302 C-2.08453087,9.29201914 -0.321566966,18.2338227 3.27925031,18.2338227 C6.88006759,18.2338227 4.5488529,14.9039073 7.82232315,14.7168443 C11.0957934,14.5297814 8.64069071,23.3217394 11.7504875,23.5088024 C14.8602842,23.6958653 11.5868139,12.659152 15.6786518,11.7238373 C19.7704896,10.7885226 17.4790604,18.8322289 19.6068161,19.2063548 C21.7345717,19.5804807 20.9162042,14.5297814 22.3892658,12.4720891 C23.8623274,10.4143968 26.6447771,10.6014597 27.4631447,13.5944667 C28.2815122,16.5874737 48.5817757,17.4405594 51,17.4405594 C53.4182243,17.4405594 75.2468309,16.4405594 78,16.4405594 C80.7531691,16.4405594 78.5425551,27.4405594 83,27.4405594 C87.4574449,27.4405594 86.0538768,16.4405594 89,16.4405594 C91.9461232,16.4405594 91,21.9405594 94.5,21.9405594 C98,21.9405594 97.7419378,14.7171244 101,14.7171244 C104.258062,14.7171244 104.208571,19.2063548 106.5,19.2063548 C108.791429,19.2063548 109.327347,13.4335664 109,10.4405594 C108.712587,7.812679 105,4.44055944 92,3.94055944 C79,3.44055944 68.9484017,0.675095009 59.8763897,1.02403253 C25.832299,2.33347309 10.1226953,1.7350669 4.0190822,5.51354302 Z" id="Path-14" stroke="#A4CFFF" fill="#FFFFFF"></path>
+                            <path d="M87.6271186,8.48251748 L86.1355932,10.7272727" id="Line" stroke="#E53465"></path>
+                            <path d="M76.8135593,8.48251748 L75.3220339,10.7272727" id="Line-Copy-51" stroke="#A4CFFF"></path>
+                            <path d="M49.220339,9.6048951 L51.0847458,11.1013986" id="Line" stroke="#1C89FF"></path>
+                            <path d="M27.9661017,6.61188811 L26.1016949,8.48251748" id="Line" stroke="#1C89FF"></path>
+                            <path d="M68.2217293,7.82221481 L65.6426775,7.27219079" id="Line-Copy-77" stroke="#1C89FF"></path>
+                            <path d="M4.47457627,11.1013986 L6.71186441,12.5979021" id="Line" stroke="#1C89FF"></path>
+                            <path d="M38.0338983,6.61188811 L40.6440678,7.36013986" id="Line" stroke="#E53465"></path>
+                            <path d="M36.4017062,13.9196018 L37.055921,11.2762024" id="Line-Copy-67" stroke="#A4CFFF"></path>
+                            <path d="M58.2881356,14.3391608 L60.1525424,12.4685315" id="Line" stroke="#1C89FF"></path>
+                            <path d="M84.932155,17.5394974 L83.2373366,15.5129502" id="Line-Copy-68" stroke="#A4CFFF"></path>
+                            <path d="M105.898305,10.3531469 L103.661017,8.48251748" id="Line" stroke="#E53465"></path>
+                            <path d="M12.6779661,7 L16.0338983,7" id="Line" stroke="#E53465"></path>
+                        </g>
+                        <g id="Cherry" transform="translate(62.241474, 12.641159) rotate(16.000000) translate(-62.241474, -12.641159) translate(54.741474, 1.641159)">
+                            <path d="M7.08474576,12.3461538 C7.08474576,12.3461538 10.0677966,6.92132867 14.1694915,5.98601399" id="Path-15" stroke="#1C89FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M11,0.187062937 C11,0.187062937 5.22033898,4.67657343 8.94915254,7.48251748 C12.6779661,10.2884615 11,0.187062937 11,0.187062937 Z" id="Path-20" stroke="#1C89FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <ellipse id="Oval-5" fill="url(#linearGradient-2)" cx="5.03389831" cy="16.2744755" rx="5.03389831" ry="5.0506993"></ellipse>
+                        </g>
+                        <text id="m" font-family=".AppleSystemUIFont" font-size="14" font-weight="normal" letter-spacing="3.5" fill="#A4CFFF">
+                            <tspan x="51.734375" y="46">m</tspan>
+                        </text>
+                        <text id="V" font-family=".AppleSystemUIFont" font-size="14" font-weight="normal" letter-spacing="3.5" fill="#A4CFFF">
+                            <tspan x="53.6083984" y="68">V</tspan>
+                        </text>
+                        <text id="p" font-family=".AppleSystemUIFont" font-size="14" font-weight="normal" letter-spacing="3.5" fill="#A4CFFF">
+                            <tspan x="54.0595703" y="90">p</tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
