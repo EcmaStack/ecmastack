@@ -1,6 +1,13 @@
 @import 'bootstrap';
 
 $enable-flex: true;
+$grey: #9BA9BF;
+$blue: #0088FF;
+
+// Predefined Break-points
+$large: 1260px;
+$medium: 960px;
+$small: 480px;
 
 body {
   font-family: 'Lato', sans-serif;

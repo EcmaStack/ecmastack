@@ -43,7 +43,8 @@
 }
 
 .home-our-process {
-  padding: 100px 0;
+  padding-top: 100px;
+  padding-bottom: 100px;
 
   &.container {
     max-width: 798px;
@@ -123,11 +124,20 @@
 
   .container {
     display: flex;
+    @include media-breakpoint-only(xs) {
+      display: block;
+      overflow: hidden;
+      text-align: center;
+    }
   }
 
   .client-logo {
     flex: 1;
     max-height: 43px;
+    @include media-breakpoint-only(xs) {
+      width: 30%;
+      margin: 1%;
+    }
   }
 } // end home-clients
 
@@ -152,6 +162,27 @@
   .home-mvp-subtitle {
     color: #6E7785;
     font-size: 24px;
+    margin-bottom: 25px;
+  }
+
+  .email-us {
+    margin: 40px auto;
+    padding: 0 0 0 60px;
+    text-align: left;
+    background: url(/images/email-icon.svg) no-repeat left;
+    .title {
+      display: block;
+      font-size: 24px;
+      color: $grey;
+      margin-bottom: -20px;
+    }
+    .email-cta {
+      color: $blue;
+      font-size: 42px;
+      @include media-breakpoint-only(xs) {
+        font-size: 30px;
+      }
+    }
   }
 
 } // end home-cta
