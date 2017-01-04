@@ -87,6 +87,15 @@
   .service-description {
     font-size: 18px;
   }
+} // end of home-services
+
+.slider-wrapper {
+  position: relative;
+  overflow: hidden;
+
+  .slide {
+    animation-name: fadeIn;
+  }
 }
 
 .home-cta {
