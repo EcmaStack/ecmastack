@@ -1,88 +1,110 @@
 <section class="home-projects container">
-  <h1>Our Recent Projects</h1>
+  <h1 class="section-title text-md-center">Our Recent Projects</h1>
+
   <div class="wrapper-nav">
-    <ul>
-      <li onclick={{action "load" 1}}>1</li>
-      <li onclick={{action "load" 2}}>2</li>
-      <li onclick={{action "load" 3}}>3</li>
-      <li onclick={{action "load" 4}}>4</li>
-      <li onclick={{action "load" 5}}>5</li>
+    <ul class="nav-items">
+      <li class="nav-item" onclick={{action "load" 1}}>1</li>
+      <li class="nav-item" onclick={{action "load" 2}}>2</li>
+      <li class="nav-item" onclick={{action "load" 3}}>3</li>
+      <li class="nav-item" onclick={{action "load" 4}}>4</li>
+      <li class="nav-item" onclick={{action "load" 5}}>5</li>
     </ul>
   </div>
-hmm {{selectedSlide}}
+
   <div class="slider-wrapper">
     {{#if (eq selectedSlide 1) }}
-    <div class="slide" data-slide="1">
-      <img src="images/app-screenshot.jpg" alt="project">
-      <h2>ClassMate</h2>
-      <h3>Problem</h3>
-      <p>A few (2-3) lines of text describing what problem a client had and what had to be improved, fixed etc.</p>
+    <div class="slide animated fadeIn" data-slide="1">
+      <div class="project-image col-md-5">
+        <img src="images/cm-project.png" alt="project">
+      </div>
+      <div class="project-solution col-md-7">
+        <h2 class="project-title">ClassMate</h2>
 
-      <h3>Solution</h3>
-      <p>A few (2-3) lines of text describing what problem a client had and what had to be improved, fixed etc.</p>
+        <h3 class="subtitle">Problem</h3>
+        <p>A few (2-3) lines of text describing what problem a client had and what had to be improved, fixed etc.</p>
 
-      <h3>Feedback</h3>
-      <p>A few (2-3) lines of text describing what problem a client had and what had to be improved, fixed etc.</p>
+        <h3 class="subtitle">Solution</h3>
+        <p>A few (2-3) lines of text describing what problem a client had and what had to be improved, fixed etc.</p>
+
+        <h3 class="subtitle">Feedback</h3>
+        <p>A few (2-3) lines of text describing what problem a client had and what had to be improved, fixed etc.</p>
+      </div>
     </div>
     {{/if}}
 
     {{#if (eq selectedSlide 2) }}
-    <div class="slide" data-slide="2">
-      <img src="images/app-screenshot.jpg" alt="project">
-      <h2>ClassMate 2</h2>
-      <h3>Problem</h3>
-      <p>A few (2-3) lines of text describing what problem a client had and what had to be improved, fixed etc.</p>
+    <div class="slide animated fadeIn" data-slide="2">
+      <div class="project-image col-md-5">
+        <img src="images/app-screenshot.jpg" alt="project">
+      </div>
+      <div class="project-solution col-md-7">
+        <h2 class="project-title">ClassMate 2</h2>
+        <h3 class="subtitle">Problem</h3>
+        <p>A few (2-3) lines of text describing what problem a client had and what had to be improved, fixed etc.</p>
 
-      <h3>Solution</h3>
-      <p>A few (2-3) lines of text describing what problem a client had and what had to be improved, fixed etc.</p>
+        <h3 class="subtitle">Solution</h3>
+        <p>A few (2-3) lines of text describing what problem a client had and what had to be improved, fixed etc.</p>
 
-      <h3>Feedback</h3>
-      <p>A few (2-3) lines of text describing what problem a client had and what had to be improved, fixed etc.</p>
+        <h3 class="subtitle">Feedback</h3>
+        <p>A few (2-3) lines of text describing what problem a client had and what had to be improved, fixed etc.</p>
+      </div>
     </div>
     {{/if}}
 
     {{#if (eq selectedSlide 3) }}
-    <div class="slide" data-slide="3">
-      <img src="images/app-screenshot.jpg" alt="project">
-      <h2>ClassMate 3</h2>
-      <h3>Problem</h3>
-      <p>A few (2-3) lines of text describing what problem a client had and what had to be improved, fixed etc.</p>
+    <div class="slide animated fadeIn" data-slide="3">
+      <div class="project-image col-md-5">
+        <img src="images/app-screenshot.jpg" alt="project">
+      </div>
+      <div class="project-solution col-md-7">
+        <h2 class="project-title">ClassMate 3</h2>
+        <h3 class="subtitle">Problem</h3>
+        <p>A few (2-3) lines of text describing what problem a client had and what had to be improved, fixed etc.</p>
 
-      <h3>Solution</h3>
-      <p>A few (2-3) lines of text describing what problem a client had and what had to be improved, fixed etc.</p>
+        <h3 class="subtitle">Solution</h3>
+        <p>A few (2-3) lines of text describing what problem a client had and what had to be improved, fixed etc.</p>
 
-      <h3>Feedback</h3>
-      <p>A few (2-3) lines of text describing what problem a client had and what had to be improved, fixed etc.</p>
+        <h3 class="subtitle">Feedback</h3>
+        <p>A few (2-3) lines of text describing what problem a client had and what had to be improved, fixed etc.</p>
+      </div>
     </div>
     {{/if}}
 
     {{#if (eq selectedSlide 4) }}
-    <div class="slide" data-slide="4">
-      <img src="images/app-screenshot.jpg" alt="project">
-      <h2>ClassMate 4</h2>
-      <h3>Problem</h3>
-      <p>A few (2-3) lines of text describing what problem a client had and what had to be improved, fixed etc.</p>
+    <div class="slide animated fadeIn" data-slide="4">
+      <div class="project-image col-md-5">
+        <img src="images/app-screenshot.jpg" alt="project">
+      </div>
+      <div class="project-solution col-md-7">
+        <h2 class="project-title">ClassMate 4</h2>
+        <h3 class="subtitle">Problem</h3>
+        <p>A few (2-3) lines of text describing what problem a client had and what had to be improved, fixed etc.</p>
 
-      <h3>Solution</h3>
-      <p>A few (2-3) lines of text describing what problem a client had and what had to be improved, fixed etc.</p>
+        <h3 class="subtitle">Solution</h3>
+        <p>A few (2-3) lines of text describing what problem a client had and what had to be improved, fixed etc.</p>
 
-      <h3>Feedback</h3>
-      <p>A few (2-3) lines of text describing what problem a client had and what had to be improved, fixed etc.</p>
+        <h3 class="subtitle">Feedback</h3>
+        <p>A few (2-3) lines of text describing what problem a client had and what had to be improved, fixed etc.</p>
+      </div>
     </div>
     {{/if}}
 
     {{#if (eq selectedSlide 5) }}
-    <div class="slide" data-slide="5">
-      <img src="images/app-screenshot.jpg" alt="project">
-      <h2>ClassMate 5</h2>
-      <h3>Problem</h3>
-      <p>A few (2-3) lines of text describing what problem a client had and what had to be improved, fixed etc.</p>
+    <div class="slide animated slideInLeft" data-slide="5">
+      <div class="project-image col-md-5">
+        <img src="images/app-screenshot.jpg" alt="project">
+      </div>
+      <div class="project-solution col-md-7">
+        <h2 class="project-title">ClassMate 5</h2>
+        <h3 class="subtitle">Problem</h3>
+        <p>A few (2-3) lines of text describing what problem a client had and what had to be improved, fixed etc.</p>
 
-      <h3>Solution</h3>
-      <p>A few (2-3) lines of text describing what problem a client had and what had to be improved, fixed etc.</p>
+        <h3 class="subtitle">Solution</h3>
+        <p>A few (2-3) lines of text describing what problem a client had and what had to be improved, fixed etc.</p>
 
-      <h3>Feedback</h3>
-      <p>A few (2-3) lines of text describing what problem a client had and what had to be improved, fixed etc.</p>
+        <h3 class="subtitle">Feedback</h3>
+        <p>A few (2-3) lines of text describing what problem a client had and what had to be improved, fixed etc.</p>
+      </div>
     </div>
     {{/if}}
   </div>

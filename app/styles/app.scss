@@ -3,17 +3,20 @@
 $enable-flex: true;
 $grey: #9BA9BF;
 $blue: #0088FF;
+$black: #1F2A3E;
 
 // Predefined Break-points
 $large: 1260px;
 $medium: 960px;
 $small: 480px;
+$use-fadeIn: true;
+$use-slideInLeft: true;
 
 body {
   font-family: 'Lato', sans-serif;
 }
 
-@import 'animations';
+@import "animate/_animate";
 @import 'common';
 @import 'header';
 @import 'home';

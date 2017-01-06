@@ -4,7 +4,7 @@
   background: -webkit-linear-gradient(-45deg, #212a3d 0%,#273555 44%,#1c89ff 100%);
   background: linear-gradient(135deg, #212a3d 0%,#273555 44%,#1c89ff 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#212a3d', endColorstr='#1c89ff',GradientType=1 );
-  height: 800px;
+  height: 700px;
 
   .home-intro {
     margin-top: 90px;
@@ -89,14 +89,46 @@
   }
 } // end of home-services
 
+.home-projects {
+  padding: 100px 0;
+
+  .project-title {
+    font-size: 24px;
+    color: $black;
+    margin-bottom: 100px;
+  }
+
+  .subtitle {
+    color: $blue;
+    font-size: 24px;
+  }
+
+  .wrapper-nav {
+    overflow: hidden;
+    .nav-items {
+      background: #F5FAFF;
+      float: right;
+      padding: 25px;
+      border-radius: 130px;
+    }
+    .nav-item {
+      list-style: none;
+      float: left;
+      padding: 0 20px;
+      font-size: 24px;
+      color: $blue;
+      cursor: pointer;
+      &:hover {
+        color: $grey;
+      }
+    }
+  }
+}
+
 .slider-wrapper {
   position: relative;
   overflow: hidden;
-
-  .slide {
-    animation-name: fadeIn;
-  }
-}
+} // end slider-wrapper
 
 .home-cta {
   background: #F5FAFF;
