@@ -1,7 +1,7 @@
 <header class="header">
   <div class="container">
     <div class="col-md-2 logo">
-      <img src="/images/logo.svg" alt="logo" />
+      {{#link-to "index"}}<img src="/images/logo.svg" alt="logo" />{{/link-to}}
     </div>
     <div class="col-md-6 float-md-right navigation text-md-right col-sm-12">
       {{#link-to "about"}}About{{/link-to}}
@@ -11,5 +11,20 @@
       {{#link-to "about"}}Contact{{/link-to}}
     </div>
   </div>
+
+  {{#if homeHeader}}
+    <div class="home-hero">
+      <div class="container home-hero-content">
+        <div class="col-md-7 home-intro col-sm-12">
+          <h1 class="site-title">We help startups launch beautiful, functional MVPs in minimum time</h1>
+          <h2 class="site-tagline">Expert MVP development so you can quickly attract customers and get investors on board</h2>
+          <button class="btn">Let’s Get in Touch</button>
+        </div>
+        <div class="col-md-5 home-rocket hidden-sm-down">
+          <img src="/images/home-rocket.png" width="35%" class="home-rocket-img" alt="JavaScript development company" />
+        </div>
+      </div>
+    </div>
+  {{/if}}
 </header>
 {{yield}}
