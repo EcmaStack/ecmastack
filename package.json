@@ -42,6 +42,7 @@
     "ember-resolver": "^2.0.3",
     "ember-truth-helpers": "1.3.0",
     "ember-welcome-page": "^1.0.3",
+    "emberfire": "2.0.5",
     "loader.js": "^4.0.10"
   },
   "engines": {
