@@ -30,7 +30,6 @@ module.exports = function(environment) {
       messagingSenderId: process.env.FIREBASE_SENDER,
     }
   };
-
   if (environment === 'development') {
     // ENV.APP.LOG_RESOLVER = true;
     // ENV.APP.LOG_ACTIVE_GENERATION = true;
@@ -43,11 +42,19 @@ module.exports = function(environment) {
     // Testem prefers this...
     ENV.locationType = 'none';
 
+    const local = require('./env.js');
+    ENV.firebase.apiKey = local.config.FIREBASE_API_KEY;
+    ENV.firebase.authDomain = local.config.FIREBASE_AUTH_DOMAIN;
+    ENV.firebase.databaseURL = local.config.FIREBASE_DB_URL;
+    ENV.firebase.storageBucket = local.config.FIREBASE_BUCKET;
+    ENV.firebase.messagingSenderId = local.config.FIREBASE_SENDER;
+
     // keep test console output quieter
     ENV.APP.LOG_ACTIVE_GENERATION = false;
     ENV.APP.LOG_VIEW_LOOKUPS = false;
 
     ENV.APP.rootElement = '#ember-testing';
+    console.log(ENV);
   }
 
   if (environment === 'production') {
