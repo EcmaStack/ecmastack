@@ -1,7 +1,40 @@
 .footer-global {
   background: #212A3D;
-  height: 110px;
   color: #4D617C;
   font-size: 18px;
   line-height: 110px;
+}
+
+.footer-nav {
+  color: #8DA3D1;
+  text-align: left;
+  padding-top: 50px;
+  border-bottom: 1px solid #404B62;
+
+  .footer-nav-title {
+    font-size: 21px;
+    color: #D1DAEE;
+  }
+
+  .address {
+    line-height: 1.6;
+    margin-bottom: 10px;
+    font-size: 12px;
+  }
+
+  .footer-link-list {
+    padding-left: 20px;
+  }
+
+  .footer-link-list li {
+    line-height: 2;
+    margin-bottom: 0;
+    font-size: 14px;
+    a {
+      color: #8DA3D1;
+      &:hover {
+        color: #fff;
+      }
+    }
+  }
 }

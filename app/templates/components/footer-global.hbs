@@ -1,4 +1,33 @@
 <footer class="footer-global text-md-center text-sm-center">
-&copy; ECMAStack LLC, {{year}}. All rights reserved
+  <div class="footer-nav container">
+    <div class="col-md-4">
+      <h3 class="footer-nav-title">Sitemap</h3>
+      <ul class="footer-link-list">
+        <li>{{#link-to "about"}}About{{/link-to}}</li>
+        <li>{{#link-to "about"}}Projects{{/link-to}}</li>
+        <li>{{#link-to "about"}}Case Studies{{/link-to}}</li>
+        <li>{{#link-to "about"}}Blog{{/link-to}}</li>
+        <li>{{#link-to "about"}}Contact{{/link-to}}</li>
+      </ul>
+    </div>
+    <div class="col-md-4">
+      <h3 class="footer-nav-title">Social</h3>
+      <ul class="footer-link-list">
+        <li><a href="/">GitHub</a></li>
+        <li><a href="/">Facebook</a></li>
+        <li><a href="/">Twitter</a></li>
+      </ul>
+    </div>
+    <div class="col-md-4">
+      <h3 class="footer-nav-title">Contact</h3>
+      <p class="address">1-203-516-0101</p>
+      <p class="address">ECMAStack, LLC</p>
+      <p class="address">65 High Ridge Rd, #522<br>
+        Stamford, CT 06905<br>
+        USA</p>
+    </div>
+  </div>
+
+  &copy; ECMAStack LLC, {{year}}. All rights reserved
 </footer>
 {{yield}}
