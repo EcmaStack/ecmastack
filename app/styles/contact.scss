@@ -1,0 +1,33 @@
+.contact-form{
+  background-color:#F5FAFF;
+  .btn[type=submit] {
+    color:#fff;
+    background-color:#E83E5A;
+    border:none;
+    box-shadow: 0px 4px 7px -2px gray;
+  }
+
+  .title-text{
+    color:#1C89FF;
+    font-size:23px;
+  }
+  ::-webkit-input-placeholder {
+    color: #A6D0FF;
+  }
+  ::-moz-placeholder { /* Firefox 18- */
+    color: #A6D0FF;
+  }
+  ::-moz-placeholder {  /* Firefox 19+ */
+    color: #A6D0FF;
+  }
+  ::-ms-input-placeholder {
+    color: #A6D0FF;
+  }
+  input[type=text],textarea{
+    border:none;
+    color:#A6D0FF;
+    &:focus {
+      color: #A6D0FF;
+    }
+  }
+}
