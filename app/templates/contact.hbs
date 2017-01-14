@@ -1,6 +1,43 @@
-<h2>Contact form</h2>
-<form>
-  <input>
-</form>
+<div class="container contact-form">
+  <div class="col-sm-12 col-md-12 col-lg-6 mx-auto m-x-auto">
+      <form id="contact-form" class="form-horizontal mt-4" action="/echo/json/" method="post">
+      <fieldset>
+        <legend class="text-center title-text mb-4">Fill in the form below and let's chat</legend>
+        <div id="form-container">
+          <div class="row">
+            <div class="form-group col-sm-12 col-md-6 col-lg-6 pr-0">
+              <input id="name" name="name" type="text" placeholder="Name: John Dou" class="form-control">
+            </div>
+            <div class="form-group col-sm-12 col-md-6 col-lg-6">
+              <input id="email" name="email" type="text" placeholder="Email: sample@mail.com" class="form-control">
+            </div>
+          </div>
+
+          <div class="form-group row">
+            <div class="col-sm-12">
+              <input id="company" name="company" type="text" placeholder="Company" class="form-control">
+            </div>
+          </div>
+          <div class="form-group row">
+            <div class="col-sm-12">
+              <input id="phone" name="phone" type="text" placeholder="Phone: 1234 56 78" class="form-control">
+            </div>
+          </div>
+          <div class="form-group row">
+            <div class="col-sm-12">
+              <textarea class="form-control" id="message" name="message" placeholder="Message..." rows="5"></textarea>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <div class="col-md-12 text-center">
+              <button type="submit" class="css3-shadow btn btn-primary btn-sm">Let's get in touch</button>
+            </div>
+          </div>
+        </div>
+      </fieldset>
+      </form>
+  </div>
+</div>
 
 {{outlet}}
