@@ -1,0 +1,39 @@
+.page-contact-container {
+  background: $aqua;
+  text-align: center;
+  padding: 50px 0;
+
+  .page-title {
+    color: $blue;
+    font-size: 36px;
+    margin-bottom: 30px;
+  }
+}
+
+#contact-form {
+  .form-control {
+    padding: 15px;
+    border-color: transparent;
+    padding-bottom: 15px;
+    color: $blue;
+    &::-webkit-input-placeholder {
+      color: #A2CEFF;
+      font-weight: 100;
+    }
+    &::-moz-placeholder {
+      color: #A2CEFF;
+      font-weight: 100;
+    }
+    &:focus {
+      border-color: $blue;
+    }
+  }
+
+  .btn {
+    cursor: pointer;
+    box-shadow: 0 6px 12px -4px #666;
+    &:hover {
+      box-shadow: none;
+    }
+  }
+}
