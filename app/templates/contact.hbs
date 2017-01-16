@@ -5,26 +5,26 @@
   <form id="contact-form" class="col-md-8 col-sm-12 offset-md-2">
     <div class="row">
       <div class="col-md-6 form-group">
-        <input class="form-control" aria-describedby="nameHelp" placeholder="Name: John Doe">
+        {{input value=name class="form-control" aria-describedby="nameHelp" placeholder="Name: John Doe"}}
       </div>
       <div class="col-md-6 form-group">
-        <input class="form-control" type="email" aria-describedby="emailHelp" placeholder="Email: example@domain.com">
+        {{input value=email class="form-control" type="email" aria-describedby="emailHelp" placeholder="Email: example@domain.com"}}
       </div>
     </div>
 
     <div class="form-group">
-      <input class="form-control" aria-describedby="nameHelp" placeholder="Company: Google">
+      {{input value=company class="form-control" aria-describedby="nameHelp" placeholder="Company: Google"}}
     </div>
 
     <div class="form-group">
-      <input class="form-control" aria-describedby="nameHelp" placeholder="Phone: (212) 545-1201">
+      {{input value=phone class="form-control" aria-describedby="nameHelp" placeholder="Phone: (212) 545-1201"}}
     </div>
 
     <div class="form-group">
-      <textarea class="form-control" placeholder="Message..."></textarea>
+      {{textarea value=message class="form-control" placeholder="Message..."}}
     </div>
 
-    <button type="submit" class="btn">Let's get in touch</button>
+    <button type=submit {{action "sendContact"}} class="btn">Let's get in touch</button>
   </form>
   </div>
 {{outlet}}
