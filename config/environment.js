@@ -1,6 +1,11 @@
 /* jshint node: true */
 var fs = require('fs');
-const local = require('./env.js');
+var local = {
+  config: {}
+};
+if (fs.existsSync('./env.js')) {
+  local = require('./env.js');
+}
 
 module.exports = function(environment) {
   var ENV = {

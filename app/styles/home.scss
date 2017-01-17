@@ -31,6 +31,37 @@
     .home-rocket-img {
 
     }
+
+    .lib-icons {
+      position: absolute;
+      -webkit-filter: grayscale(0.6);
+      filter: grayscale(0.6);
+
+      &.react-icon {
+        left: 20%;
+        top: 61%;
+      }
+      &.angular-icon {
+        left: 29%;
+        top: 16%;
+      }
+      &.js-icon {
+        left: 59%;
+        top: 19%;
+      }
+      &.node-icon {
+        left: 73%;
+        top: 50%;
+      }
+      &.graphql-icon {
+        top: 40%;
+        left: 14%;
+      }
+      &.redux-icon {
+        top: 34%;
+        right: 22%;
+      }
+    }
   }
 }
 
