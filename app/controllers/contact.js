@@ -8,13 +8,12 @@ const ses = new AWS.SES({
   "secretAccessKey": config.aws.AMAZON_SECRET_ACCESS_KEY, //AMAZON_SECRET_ACCESS_KEY
   "region": "us-east-1",
 });
-console.log(ses);
 
 export default Ember.Controller.extend({
   sortProperties: ['timestamp'],
   sortAscending: false, // sorts post by timestamp
   init() {
-    console.log(config);
+    
   },
   actions: {
     sendContact: function() {
