@@ -4,19 +4,16 @@ import config from '../config/environment';
 
 const ses = new AWS.SES({
   apiVersion: '2010-12-01',
-  accessKeyId: config.aws.AMAZON_ACCESS_KEY_ID, // AMAZON_ACCESS_KEY_ID
-  "secretAccessKey": config.aws.AMAZON_SECRET_ACCESS_KEY, //AMAZON_SECRET_ACCESS_KEY
+  accessKeyId: config.aws.accessKeyId,
+  "secretAccessKey": config.aws.secretAccessKey,
   "region": "us-east-1",
 });
 
 export default Ember.Controller.extend({
-  sortProperties: ['timestamp'],
-  sortAscending: false, // sorts post by timestamp
-  init() {
-    
-  },
   actions: {
     sendContact: function() {
+
+      // Grab submitted values
       const submittedForm = {
         name: this.get('name'),
         email: this.get('email'),
@@ -26,8 +23,9 @@ export default Ember.Controller.extend({
         timestamp: new Date().getTime()
       };
 
-      const params = {
-        Destination: { ToAddresses: [ 'EcmaStack <hello@ecmastack.com>' ] },
+      // Prepare values to send with email
+      const emailParams = {
+        Destination: { ToAddresses: [ 'EcmaStack <hello@ecmastack.com>', 'abachuk@gmail.com', 'jmasse860@gmail.com' ] },
         Message: {
           Body: { Text: {
             Data: `${submittedForm.name} from ${submittedForm.company} company contacted EcmaStack about ${submittedForm.message}. You can contact them by email ${submittedForm.email} or phone ${submittedForm.phone}`,
@@ -36,28 +34,23 @@ export default Ember.Controller.extend({
         },
         ReplyToAddresses: [submittedForm.email],
         Source: `${submittedForm.name} <info@ecmastack.com>`,
-      }
+      };
 
-      const newContact = this.store.createRecord('contact', {
-        name: this.get('name'),
-        email: this.get('email'),
-        company: this.get('company'),
-        phone: this.get('phone'),
-        message: this.get('message'),
-        timestamp: new Date().getTime()
+      // Save the submitted form to our database
+      const newContact = this.store.createRecord('contact', submittedForm);
+      newContact.save().then(function(res) {});
+
+      // Send submitted for as email using AWS SES
+      // TODO: handle the error and failure with user friendly messages
+      ses.sendEmail(emailParams, function(err, data) {
+        if (err) {
+          console.log(err);
+        } else {
+          console.log(data);
+          console.log('Thanks for dropping us a line');
+        }
       });
-      newContact.save().then(function(res) {
-        ses.sendEmail(params, function(err, data) {
-          if (err) {
-            console.log(err, err.stack);
-            console.log(err);
-          } else {
-            console.log(data);
-            console.log('Thanks for dropping us a line');
-          }
-        });
-        console.log(res);
-      });
+
     }
   }
 });

@@ -1,11 +1,5 @@
 /* jshint node: true */
-var fs = require('fs');
-var local = {
-  config: {}
-};
-if (fs.existsSync('./env.js')) {
-  local = require('./env.js');
-}
+
 
 module.exports = function(environment) {
   var ENV = {
@@ -30,16 +24,16 @@ module.exports = function(environment) {
     },
 
     firebase: {
-      apiKey: process.env.FIREBASE_API_KEY || local.config.FIREBASE_API_KEY,
-      authDomain: process.env.FIREBASE_AUTH_DOMAIN || local.config.FIREBASE_AUTH_DOMAIN,
-      databaseURL: process.env.FIREBASE_DB_URL || local.config.FIREBASE_DB_URL,
-      storageBucket: process.env.FIREBASE_BUCKET || local.config.FIREBASE_BUCKET,
-      messagingSenderId: process.env.FIREBASE_SENDER || local.config.FIREBASE_SENDER,
+      apiKey: process.env.FIREBASE_API_KEY,
+      authDomain: process.env.FIREBASE_AUTH_DOMAIN,
+      databaseURL: process.env.FIREBASE_DB_URL,
+      storageBucket: process.env.FIREBASE_BUCKET,
+      messagingSenderId: process.env.FIREBASE_SENDER,
     },
 
     aws: {
-      accessKeyId: process.env.AMAZON_ACCESS_KEY_ID || local.config.AMAZON_ACCESS_KEY_ID || 'xxxxx',
-      secretAccessKey: process.env.AMAZON_SECRET_ACCESS_KEY || local.config.AMAZON_SECRET_ACCESS_KEY || 'xxxx',
+      accessKeyId: process.env.AMAZON_ACCESS_KEY_ID,
+      secretAccessKey: process.env.AMAZON_SECRET_ACCESS_KEY,
     },
 
   };
@@ -54,15 +48,6 @@ module.exports = function(environment) {
   if (environment === 'test') {
     // Testem prefers this...
     ENV.locationType = 'none';
-    // if (fs.existsSync('./env.js')) {
-      const local = require('./env.js');
-      ENV.firebase.apiKey = local.config.FIREBASE_API_KEY;
-      ENV.firebase.authDomain = local.config.FIREBASE_AUTH_DOMAIN;
-      ENV.firebase.databaseURL = local.config.FIREBASE_DB_URL;
-      ENV.firebase.storageBucket = local.config.FIREBASE_BUCKET;
-      ENV.firebase.messagingSenderId = local.config.FIREBASE_SENDER;
-    // }
-
     // keep test console output quieter
     ENV.APP.LOG_ACTIVE_GENERATION = false;
     ENV.APP.LOG_VIEW_LOOKUPS = false;
@@ -73,6 +58,8 @@ module.exports = function(environment) {
   if (environment === 'production') {
 
   }
+  console.log(ENV);
+  //console.log(environment);
   return ENV;
 
 };
