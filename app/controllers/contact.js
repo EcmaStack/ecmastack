@@ -1,10 +1,11 @@
 import Ember from 'ember';
 import AWS from 'npm:aws-sdk';
+import config from '../config/environment';
 
 const ses = new AWS.SES({
   apiVersion: '2010-12-01',
-  accessKeyId: "AKIAIPDIIAXY24YAGHNQ", // AMAZON_ACCESS_KEY_ID
-  "secretAccessKey": "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", //AMAZON_SECRET_ACCESS_KEY
+  accessKeyId: config.aws.AMAZON_ACCESS_KEY_ID, // AMAZON_ACCESS_KEY_ID
+  "secretAccessKey": config.aws.AMAZON_SECRET_ACCESS_KEY, //AMAZON_SECRET_ACCESS_KEY
   "region": "us-east-1",
 });
 console.log(ses);
@@ -13,7 +14,7 @@ export default Ember.Controller.extend({
   sortProperties: ['timestamp'],
   sortAscending: false, // sorts post by timestamp
   init() {
-
+    console.log(config);
   },
   actions: {
     sendContact: function() {

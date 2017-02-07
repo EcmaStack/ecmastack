@@ -35,7 +35,13 @@ module.exports = function(environment) {
       databaseURL: process.env.FIREBASE_DB_URL || local.config.FIREBASE_DB_URL,
       storageBucket: process.env.FIREBASE_BUCKET || local.config.FIREBASE_BUCKET,
       messagingSenderId: process.env.FIREBASE_SENDER || local.config.FIREBASE_SENDER,
-    }
+    },
+
+    aws: {
+      accessKeyId: process.env.AMAZON_ACCESS_KEY_ID || local.config.AMAZON_ACCESS_KEY_ID || 'xxxxx',
+      secretAccessKey: process.env.AMAZON_SECRET_ACCESS_KEY || local.config.AMAZON_SECRET_ACCESS_KEY || 'xxxx',
+    },
+
   };
   if (environment === 'development') {
     // ENV.APP.LOG_RESOLVER = true;
