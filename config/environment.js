@@ -58,8 +58,7 @@ module.exports = function(environment) {
   if (environment === 'production') {
 
   }
-  console.log(ENV);
-  //console.log(environment);
+
   return ENV;
 
 };
