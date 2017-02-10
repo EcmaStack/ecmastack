@@ -11,6 +11,7 @@ Router.map(function() {
   this.route('controller');
   this.route('contact');
   this.route('services');
+  this.route('work');
 });
 
 export default Router;
