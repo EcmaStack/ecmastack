@@ -1,45 +1,158 @@
 0 info it worked if it ends with ok
-1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'start' ]
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'install' ]
 2 info using npm@3.10.8
 3 info using node@v6.9.1
-4 verbose run-script [ 'prestart', 'start', 'poststart' ]
-5 info lifecycle ecmastack@0.0.0~prestart: ecmastack@0.0.0
-6 silly lifecycle ecmastack@0.0.0~prestart: no script for prestart, continuing
-7 info lifecycle ecmastack@0.0.0~start: ecmastack@0.0.0
-8 verbose lifecycle ecmastack@0.0.0~start: unsafe-perm in lifecycle true
-9 verbose lifecycle ecmastack@0.0.0~start: PATH: /usr/local/lib/node_modules/npm/bin/node-gyp-bin:/Users/alex/Sites/ecmastack/node_modules/.bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
-10 verbose lifecycle ecmastack@0.0.0~start: CWD: /Users/alex/Sites/ecmastack
-11 silly lifecycle ecmastack@0.0.0~start: Args: [ '-c', 'ember server' ]
-12 silly lifecycle ecmastack@0.0.0~start: Returned: code: 1  signal: null
-13 info lifecycle ecmastack@0.0.0~start: Failed to exec start script
-14 verbose stack Error: ecmastack@0.0.0 start: `ember server`
-14 verbose stack Exit status 1
-14 verbose stack     at EventEmitter.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/lifecycle.js:255:16)
-14 verbose stack     at emitTwo (events.js:106:13)
-14 verbose stack     at EventEmitter.emit (events.js:191:7)
-14 verbose stack     at ChildProcess.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/spawn.js:40:14)
-14 verbose stack     at emitTwo (events.js:106:13)
-14 verbose stack     at ChildProcess.emit (events.js:191:7)
-14 verbose stack     at maybeClose (internal/child_process.js:877:16)
-14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
-15 verbose pkgid ecmastack@0.0.0
-16 verbose cwd /Users/alex/Sites/ecmastack
-17 error Darwin 16.4.0
-18 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "start"
-19 error node v6.9.1
-20 error npm  v3.10.8
-21 error code ELIFECYCLE
-22 error ecmastack@0.0.0 start: `ember server`
-22 error Exit status 1
-23 error Failed at the ecmastack@0.0.0 start script 'ember server'.
-23 error Make sure you have the latest version of node.js and npm installed.
-23 error If you do, this is most likely a problem with the ecmastack package,
-23 error not with npm itself.
-23 error Tell the author that this fails on your system:
-23 error     ember server
-23 error You can get information on how to open an issue for this project with:
-23 error     npm bugs ecmastack
-23 error Or if that isn't available, you can get their info via:
-23 error     npm owner ls ecmastack
-23 error There is likely additional logging output above.
-24 verbose exit [ 1, true ]
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly install normalizeTree
+8 silly loadCurrentTree Finishing
+9 silly loadIdealTree Starting
+10 silly install loadIdealTree
+11 silly cloneCurrentTree Starting
+12 silly install cloneCurrentTreeToIdealTree
+13 silly cloneCurrentTree Finishing
+14 silly loadShrinkwrap Starting
+15 silly install loadShrinkwrap
+16 silly loadShrinkwrap Finishing
+17 silly loadAllDepsIntoIdealTree Starting
+18 silly install loadAllDepsIntoIdealTree
+19 silly fetchNamedPackageData ember-bootstrap-4
+20 silly mapToRegistry name ember-bootstrap-4
+21 silly mapToRegistry using default registry
+22 silly mapToRegistry registry https://registry.npmjs.org/
+23 silly mapToRegistry data Result {
+23 silly mapToRegistry   raw: 'ember-bootstrap-4',
+23 silly mapToRegistry   scope: null,
+23 silly mapToRegistry   escapedName: 'ember-bootstrap-4',
+23 silly mapToRegistry   name: 'ember-bootstrap-4',
+23 silly mapToRegistry   rawSpec: '',
+23 silly mapToRegistry   spec: 'latest',
+23 silly mapToRegistry   type: 'tag' }
+24 silly mapToRegistry uri https://registry.npmjs.org/ember-bootstrap-4
+25 verbose request uri https://registry.npmjs.org/ember-bootstrap-4
+26 verbose request no auth needed
+27 info attempt registry request try #1 at 11:17:13 PM
+28 verbose request id 16ad191d50824e17
+29 verbose etag W/"57d36090-2022"
+30 verbose lastModified Sat, 10 Sep 2016 01:23:28 GMT
+31 http request GET https://registry.npmjs.org/ember-bootstrap-4
+32 http 304 https://registry.npmjs.org/ember-bootstrap-4
+33 verbose headers { date: 'Fri, 10 Feb 2017 04:17:13 GMT',
+33 verbose headers   via: '1.1 varnish',
+33 verbose headers   'cache-control': 'max-age=300',
+33 verbose headers   etag: 'W/"57d36090-2022"',
+33 verbose headers   age: '21',
+33 verbose headers   connection: 'keep-alive',
+33 verbose headers   'x-served-by': 'cache-jfk8127-JFK',
+33 verbose headers   'x-cache': 'HIT',
+33 verbose headers   'x-cache-hits': '1',
+33 verbose headers   'x-timer': 'S1486700233.445176,VS0,VE0',
+33 verbose headers   vary: 'Accept-Encoding' }
+34 silly get cb [ 304,
+34 silly get   { date: 'Fri, 10 Feb 2017 04:17:13 GMT',
+34 silly get     via: '1.1 varnish',
+34 silly get     'cache-control': 'max-age=300',
+34 silly get     etag: 'W/"57d36090-2022"',
+34 silly get     age: '21',
+34 silly get     connection: 'keep-alive',
+34 silly get     'x-served-by': 'cache-jfk8127-JFK',
+34 silly get     'x-cache': 'HIT',
+34 silly get     'x-cache-hits': '1',
+34 silly get     'x-timer': 'S1486700233.445176,VS0,VE0',
+34 silly get     vary: 'Accept-Encoding' } ]
+35 verbose etag https://registry.npmjs.org/ember-bootstrap-4 from cache
+36 verbose get saving ember-bootstrap-4 to /Users/alex/.npm/registry.npmjs.org/ember-bootstrap-4/.cache.json
+37 verbose correctMkdir /Users/alex/.npm correctMkdir not in flight; initializing
+38 silly fetchNamedPackageData No valid target from cache, forcing network
+39 verbose request uri https://registry.npmjs.org/ember-bootstrap-4
+40 verbose request no auth needed
+41 info attempt registry request try #1 at 11:17:13 PM
+42 http request GET https://registry.npmjs.org/ember-bootstrap-4
+43 http 200 https://registry.npmjs.org/ember-bootstrap-4
+44 verbose headers { server: 'nginx/1.10.1',
+44 verbose headers   'content-type': 'application/json',
+44 verbose headers   'last-modified': 'Sat, 10 Sep 2016 01:23:28 GMT',
+44 verbose headers   etag: 'W/"57d36090-2022"',
+44 verbose headers   'content-encoding': 'gzip',
+44 verbose headers   'cache-control': 'max-age=300',
+44 verbose headers   'content-length': '2046',
+44 verbose headers   'accept-ranges': 'bytes',
+44 verbose headers   date: 'Fri, 10 Feb 2017 04:17:13 GMT',
+44 verbose headers   via: '1.1 varnish',
+44 verbose headers   age: '21',
+44 verbose headers   connection: 'keep-alive',
+44 verbose headers   'x-served-by': 'cache-jfk8127-JFK',
+44 verbose headers   'x-cache': 'HIT',
+44 verbose headers   'x-cache-hits': '2',
+44 verbose headers   'x-timer': 'S1486700233.477219,VS0,VE0',
+44 verbose headers   vary: 'Accept-Encoding' }
+45 silly get cb [ 200,
+45 silly get   { server: 'nginx/1.10.1',
+45 silly get     'content-type': 'application/json',
+45 silly get     'last-modified': 'Sat, 10 Sep 2016 01:23:28 GMT',
+45 silly get     etag: 'W/"57d36090-2022"',
+45 silly get     'content-encoding': 'gzip',
+45 silly get     'cache-control': 'max-age=300',
+45 silly get     'content-length': '2046',
+45 silly get     'accept-ranges': 'bytes',
+45 silly get     date: 'Fri, 10 Feb 2017 04:17:13 GMT',
+45 silly get     via: '1.1 varnish',
+45 silly get     age: '21',
+45 silly get     connection: 'keep-alive',
+45 silly get     'x-served-by': 'cache-jfk8127-JFK',
+45 silly get     'x-cache': 'HIT',
+45 silly get     'x-cache-hits': '2',
+45 silly get     'x-timer': 'S1486700233.477219,VS0,VE0',
+45 silly get     vary: 'Accept-Encoding' } ]
+46 verbose get saving ember-bootstrap-4 to /Users/alex/.npm/registry.npmjs.org/ember-bootstrap-4/.cache.json
+47 verbose correctMkdir /Users/alex/.npm correctMkdir not in flight; initializing
+48 silly fetchPackageMetaData Error: No compatible version found: ember-bootstrap-4@1.0.0-alpha.4
+48 silly fetchPackageMetaData Valid install targets:
+48 silly fetchPackageMetaData 0.1.2, 0.1.1, 0.1.0
+48 silly fetchPackageMetaData
+48 silly fetchPackageMetaData     at pickVersionFromRegistryDocument (/usr/local/lib/node_modules/npm/lib/fetch-package-metadata.js:178:16)
+48 silly fetchPackageMetaData     at /usr/local/lib/node_modules/npm/node_modules/iferr/index.js:13:50
+48 silly fetchPackageMetaData     at /usr/local/lib/node_modules/npm/lib/utils/pulse-till-done.js:20:8
+48 silly fetchPackageMetaData     at saved (/usr/local/lib/node_modules/npm/lib/cache/caching-client.js:174:7)
+48 silly fetchPackageMetaData     at /usr/local/lib/node_modules/npm/node_modules/graceful-fs/polyfills.js:233:18
+48 silly fetchPackageMetaData     at FSReqWrap.oncomplete (fs.js:123:15)
+48 silly fetchPackageMetaData  error for ember-bootstrap-4@1.0.0-alpha.4 { Error: No compatible version found: ember-bootstrap-4@1.0.0-alpha.4
+48 silly fetchPackageMetaData Valid install targets:
+48 silly fetchPackageMetaData 0.1.2, 0.1.1, 0.1.0
+48 silly fetchPackageMetaData
+48 silly fetchPackageMetaData     at pickVersionFromRegistryDocument (/usr/local/lib/node_modules/npm/lib/fetch-package-metadata.js:178:16)
+48 silly fetchPackageMetaData     at /usr/local/lib/node_modules/npm/node_modules/iferr/index.js:13:50
+48 silly fetchPackageMetaData     at /usr/local/lib/node_modules/npm/lib/utils/pulse-till-done.js:20:8
+48 silly fetchPackageMetaData     at saved (/usr/local/lib/node_modules/npm/lib/cache/caching-client.js:174:7)
+48 silly fetchPackageMetaData     at /usr/local/lib/node_modules/npm/node_modules/graceful-fs/polyfills.js:233:18
+48 silly fetchPackageMetaData     at FSReqWrap.oncomplete (fs.js:123:15) code: 'ETARGET' }
+49 silly rollbackFailedOptional Starting
+50 silly rollbackFailedOptional Finishing
+51 silly runTopLevelLifecycles Finishing
+52 silly install printInstalled
+53 verbose stack Error: No compatible version found: ember-bootstrap-4@1.0.0-alpha.4
+53 verbose stack Valid install targets:
+53 verbose stack 0.1.2, 0.1.1, 0.1.0
+53 verbose stack
+53 verbose stack     at pickVersionFromRegistryDocument (/usr/local/lib/node_modules/npm/lib/fetch-package-metadata.js:178:16)
+53 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/iferr/index.js:13:50
+53 verbose stack     at /usr/local/lib/node_modules/npm/lib/utils/pulse-till-done.js:20:8
+53 verbose stack     at saved (/usr/local/lib/node_modules/npm/lib/cache/caching-client.js:174:7)
+53 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/graceful-fs/polyfills.js:233:18
+53 verbose stack     at FSReqWrap.oncomplete (fs.js:123:15)
+54 verbose cwd /Users/alex/Sites/ecmastack
+55 error Darwin 16.4.0
+56 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install"
+57 error node v6.9.1
+58 error npm  v3.10.8
+59 error code ETARGET
+60 error notarget No compatible version found: ember-bootstrap-4@1.0.0-alpha.4
+60 error notarget Valid install targets:
+60 error notarget 0.1.2, 0.1.1, 0.1.0
+61 error notarget This is most likely not a problem with npm itself.
+61 error notarget In most cases you or one of your dependencies are requesting
+61 error notarget a package version that doesn't exist.
+61 error notarget
+61 error notarget It was specified as a dependency of 'ecmastack'
+62 verbose exit [ 1, true ]
