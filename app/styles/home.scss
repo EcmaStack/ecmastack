@@ -21,10 +21,16 @@
     margin-bottom: 60px;
   }
 
+  .home-rocket-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+
   .home-rocket {
     position: relative;
     background: url('/images/home-rocket-background.svg') no-repeat;
-    height: 450px;
+    height: 454px;
+    flex-basis: 471px;
 
     .home-rocket-img {
       max-height: 100%;
@@ -39,32 +45,32 @@
       font-size: 12px;
 
       &.react {
-        left: 54%;
-        top: 36%;
+        left: 290px;
+        top: 164px;
 
         &:after {
           content: "react.js";
         }
       }
       &.angular {
-        left: 6%;
-        top: 27%;
+        left: 36px;
+        top: 120px;
 
         &:after {
           content: "angular.js";
         }
       }
       &.node {
-        left: 68%;
-        top: 62%;
+        left: 372px;
+        top: 281px;
 
         &:after {
           content: "node.js";
         }
       }
       &.meteor {
-        left: -1%;
-        top: 68%;
+        left: -5px;
+        top: 305px;
 
         &:after {
           content: "meteor.js";
