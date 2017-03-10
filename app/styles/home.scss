@@ -1,65 +1,91 @@
 .home-hero {
   height: 550px;
-  margin-top: 100px;
+  margin-top: 73px;
 
   .home-intro {
-    margin-top: 90px;
+    margin-top: 97px;
   }
 
   .site-title {
     color: #fff;
-    font-size: 38px;
-    font-weight: bold;
-    margin-bottom: 25px;
+    font-size: 42px;
+    font-weight: 500;
+    margin-bottom: 10px;
   }
 
   .site-tagline {
     color: #fff;
-    font-size: 21px;
-    font-weight: 300;
-    margin-bottom: 55px;
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 500;
+    margin-bottom: 60px;
   }
 
   .home-rocket {
     position: relative;
-    background-image: url('/images/home-rocket-background.svg');
-    background-repeat: no-repeat;
-    padding-bottom: 40px;
-    text-align: center;
-    padding-top: 30px;
+    background: url('/images/home-rocket-background.svg') no-repeat;
+    height: 450px;
 
     .home-rocket-img {
-
+      max-height: 100%;
+      width: auto;
+      margin: 0 115px;
     }
 
-    .lib-icons {
+    .lib-icon {
       position: absolute;
-      -webkit-filter: grayscale(0.6);
-      filter: grayscale(0.6);
+      text-transform: uppercase;
+      color: #fff;
+      font-size: 12px;
 
-      &.react-icon {
-        left: 20%;
-        top: 61%;
+      &.react {
+        left: 54%;
+        top: 36%;
+
+        &:after {
+          content: "react.js";
+        }
       }
-      &.angular-icon {
-        left: 29%;
-        top: 16%;
+      &.angular {
+        left: 6%;
+        top: 27%;
+
+        &:after {
+          content: "angular.js";
+        }
       }
-      &.js-icon {
-        left: 59%;
-        top: 19%;
+      &.node {
+        left: 68%;
+        top: 62%;
+
+        &:after {
+          content: "node.js";
+        }
       }
-      &.node-icon {
-        left: 73%;
-        top: 50%;
+      &.meteor {
+        left: -1%;
+        top: 68%;
+
+        &:after {
+          content: "meteor.js";
+        }
       }
-      &.graphql-icon {
-        top: 40%;
-        left: 14%;
+
+      &:before {
+        content: "";
+        display: block;
+        position: absolute;
+        border: 4px solid #e53366;
+        width: 26px;
+        height: 26px;
+        border-radius: 30px;
       }
-      &.redux-icon {
-        top: 34%;
-        right: 22%;
+
+      &:after {
+        position: absolute;
+        z-index: 2;
+        top: 6px;
+        left: 14px;
       }
     }
   }
