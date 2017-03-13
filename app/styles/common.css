@@ -1,11 +1,15 @@
-.btn {
-  color: #fff;
-  text-transform: uppercase;
+.pink-gradient {
   background: $pink;
   background: -moz-linear-gradient(124deg,  $pink 0%, $red-pink 100%);
   background: -webkit-linear-gradient(124deg,  $pink 0%,$red-pink 100%);
   background: linear-gradient(135deg,  $pink 0%,$red-pink 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#{$pink}", endColorstr="#{$red-pink}",GradientType=1 );
+}
+
+.btn {
+  @extend .pink-gradient;
+  color: #fff;
+  text-transform: uppercase;
   border-radius: 4px;
   padding: 25px 34px;
   font-size: 18px;

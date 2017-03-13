@@ -56,13 +56,13 @@
                             <ellipse id="Oval-5" fill="url(#linearGradient-2)" cx="5.03389831" cy="16.2744755" rx="5.03389831" ry="5.0506993"></ellipse>
                         </g>
                         <text id="m" font-family=".AppleSystemUIFont" font-size="14" font-weight="normal" letter-spacing="3.5" fill="#A4CFFF">
-                            <tspan x="51.734375" y="46">m</tspan>
+                            <tspan x="51.734375" y="46">M</tspan>
                         </text>
                         <text id="V" font-family=".AppleSystemUIFont" font-size="14" font-weight="normal" letter-spacing="3.5" fill="#A4CFFF">
                             <tspan x="53.6083984" y="68">V</tspan>
                         </text>
                         <text id="p" font-family=".AppleSystemUIFont" font-size="14" font-weight="normal" letter-spacing="3.5" fill="#A4CFFF">
-                            <tspan x="54.0595703" y="90">p</tspan>
+                            <tspan x="54.0595703" y="90">P</tspan>
                         </text>
                     </g>
                 </g>

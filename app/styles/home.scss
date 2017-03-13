@@ -102,22 +102,20 @@
 }
 
 .home-our-process {
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 128px;
+  padding-bottom: 134px;
 
   &.container {
-    max-width: 798px;
+    max-width: 980px;
   }
 
   .process-block {
-    margin-bottom: 50px;
+    margin-bottom: 28px;
   }
 
   .block-title {
     color: #0088FF;
-    margin-top: 70px;
-    margin-bottom: 30px;
-    font-weight: 300;
+    margin: 88px auto 24px;
   }
 
   .block-description {
@@ -127,12 +125,12 @@
 }
 
 .home-services {
-  background: #E22A70;
-  padding: 100px 0;
+  @extend .pink-gradient;
+  padding: 110px 0 94px;
   color: #fff;
 
   .service-icon {
-    margin: 0 auto 30px;
+    margin: 12px auto 38px;
     display: block;
     height: 80px;
   }
@@ -140,21 +138,23 @@
   .service-name {
     margin-bottom: 25px;
     font-size: 24px;
-    text-align: center;
+    padding-left: 62px;
   }
 
   .service-description {
     font-size: 18px;
+    padding-left: 62px;
   }
 } // end of home-services
 
 .home-projects {
-  padding: 100px 0;
+  padding-top: 120px;
+  padding-bottom: 120px;
 
   .project-title {
     font-size: 24px;
     color: $black;
-    margin-bottom: 100px;
+    margin: 4px auto 92px;
   }
 
   .subtitle {
@@ -162,14 +162,35 @@
     font-size: 24px;
   }
 
+  .selected-slide-number {
+    display: inline-block;
+    margin-left: 56px;
+  }
+
+  .selected-slide-number, .separator {
+    font-size: 42px;
+  }
+
+  .number-of-slides, .separator {
+    opacity: .5;
+  }
+
+  .number-of-slides {
+    font-size: 24px;
+  }
+
   .wrapper-nav {
     overflow: hidden;
+    margin-top: 82px;
+
     .nav-items {
       background: #F5FAFF;
       float: right;
-      padding: 25px;
+      padding: 15px 24px;
       border-radius: 130px;
+      margin: 0;
     }
+
     .nav-item {
       list-style: none;
       float: left;
@@ -177,9 +198,79 @@
       font-size: 24px;
       color: $blue;
       cursor: pointer;
+
       &:hover {
         color: $grey;
       }
+    }
+  }
+
+  .project-image {
+    text-align: center;
+  }
+
+  .project-solution {
+    padding-left: 72px;
+    line-height: 30px;
+  }
+
+  .description {
+    margin-bottom: 28px;
+  }
+
+  .project-owner {
+    display: flex;
+
+    .photo {
+      width: 64px;
+      height: 64px;
+      overflow: hidden;
+      background: #a4cfff;
+      border-radius: 64px;
+      position: relative;
+      margin-right: 20px;
+
+      &:before {
+        content: "";
+        position: absolute;
+        width: 21px;
+        height: 25px;
+        background: #fff;
+        border-radius: 50%;
+        top: 14px;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+      }
+
+      &:after {
+        content: "";
+        position: absolute;
+        width: 39px;
+        height: 40px;
+        background: #fff;
+        border-radius: 50%;
+        top: 36px;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+      }
+    }
+
+    .owner-info {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .owner-name {
+      font-size: 18px;
+    }
+
+    .owner-job {
+      text-transform: uppercase;
+      font-size: 12px;
+      opacity: .5;
     }
   }
 }
@@ -191,20 +282,20 @@
 
 .home-cta {
   background: #F5FAFF;
-  padding: 100px 0;
+  padding: 100px 0 110px;
   text-align: center;
   color: #0088FF;
 
   .home-cta-title {
     font-size: 125px;
-    opacity: 0.1;
-    margin: 0 0 -50px 0;
+    opacity: .3;
+    margin: -34px 0 -45px 0;
   }
 
   .home-cta-subtitle {
     font-size: 30px;
     max-width: 500px;
-    margin: 0 auto 50px;
+    margin: 0 auto 44px;
     line-height: 1.3;
   }
 
@@ -219,7 +310,7 @@
 }
 
 .home-clients {
-  padding: 50px 0;
+  padding: 64px 0;
   background: #212A3D;
 
   .container {
@@ -233,7 +324,7 @@
 
   .client-logo {
     flex: 1;
-    max-height: 43px;
+    max-height: 54px;
     @include media-breakpoint-only(xs) {
       width: 30%;
       margin: 1%;
@@ -242,9 +333,9 @@
 } // end home-clients
 
 .home-mvp {
-  background: url(/images/mvp-cake.svg) no-repeat center 50px #fff;
+  background: url(/images/mvp-cake.svg) no-repeat center 92px #fff;
   text-align: center;
-  padding: 200px 0 100px;
+  padding: 260px 0 100px;
 
   .container {
     max-width: 798px;
@@ -252,7 +343,8 @@
 
   .home-mvp-title {
     font-size: 36px;
-    margin-bottom: 40px;
+    margin-bottom: 44px;
+
     em {
       font-style: normal;
       color: #0088FF;
@@ -266,7 +358,7 @@
   }
 
   .email-us {
-    margin: 40px auto;
+    margin: 104px auto;
     padding: 0 0 0 60px;
     text-align: left;
     background: url(/images/email-icon.svg) no-repeat left;
@@ -292,12 +384,12 @@
   height: 728px;
   position: relative;
   background: #212a3d;
-  background-image: url("/images/nyc-skyline.svg"), -moz-linear-gradient(-45deg,  #212a3d 0%, #1c89ff 100%);
-  background-image: url("/images/nyc-skyline.svg"), -webkit-linear-gradient(-45deg,  #212a3d 0%,#1c89ff 100%);
-  background-image: url("/images/nyc-skyline.svg"), linear-gradient(135deg,  #212a3d 0%,#1c89ff 100%);
+  background: url("/images/nyc-skyline.svg"), -moz-linear-gradient(-30deg,  #212a3d 0%, #212a3d 40%, #1c89ff 100%);
+  background: url("/images/nyc-skyline.svg"), -webkit-linear-gradient(-30deg,  #212a3d 0%,#212a3d 40%,#1c89ff 100%);
+  background: url("/images/nyc-skyline.svg"), linear-gradient(120deg,  #212a3d 0%,#212a3d 40%,#1c89ff 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#212a3d', endColorstr='#1c89ff',GradientType=1 );
   text-align: center;
-  padding: 100px 0;
+  padding: 130px 0;
   background-repeat: no-repeat;
   background-position: bottom;
 
@@ -305,34 +397,67 @@
     font-size: 30px;
     font-weight: 500;
     color: #fff;
+    margin-bottom: 14px;
   }
 
   .footer-heading-2 {
     font-size: 24px;
     color: #9BA9BF;
+    margin-bottom: 2px;
   }
 
-  .footer-home-callto-action {
+  .footer-heading-3 {
+    font-size: 30px;
     color: #fff;
-    text-align: left;
-    margin-top: 100px;
+    margin: 10px auto 38px;
+  }
 
-    .bottom-cta-title {
-      font-weight: normal;
-      line-height: 1.3;
-      em {
-        font-style: normal;
-        color: $pink;
+  .footer-icon {
+    display: flex;
+    justify-content: center;
+
+    .right-part {
+      margin: 14px 5px 0;
+      width: 29px;
+      display: flex;
+      flex-direction: column;
+
+      .line {
+        @extend .pink-gradient;
+        height: 2px;
+        margin-bottom: 6px;
+      }
+
+      .line:nth-child(1) {
+        width: 30px;
+      }
+
+      .line:nth-child(2) {
+        width: 18px;
+      }
+
+      .line:nth-child(3) {
+        width: 12px;
       }
     }
 
-    .bottom-cta-paragraph {
-      font-size: 16px;
-      line-height: 1.7;
+    .left-part {
+      @extend .right-part;
+      transform: rotateY(180deg);
+      margin-top: 22px;
     }
+  }
 
-    .btn {
-      padding: 10px 25px;
-    }
+  .meetup-name, .meetup-place {
+    font-size: 18px;
+    text-align: left;
+  }
+  
+  .meetup-name {
+    color: #49a0ff;
+  }
+  
+  .meetup-place {
+    color: #9da9bd;
   }
 } // end footer-home
