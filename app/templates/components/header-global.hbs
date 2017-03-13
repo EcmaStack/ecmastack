@@ -1,14 +1,16 @@
 <header class="header {{route}}-page-header">
-  <div class="container">
-    <div class="col-md-2 logo">
-      {{#link-to "index"}}<img src="/images/logo.svg" alt="logo" />{{/link-to}}
-    </div>
-    <div class="col-md-6 float-md-right navigation text-md-right col-sm-12">
-      {{#link-to "about"}}About{{/link-to}}
-      {{#link-to "services"}}Services{{/link-to}}
-      {{#link-to "about"}}Clients{{/link-to}}
-      <a href="https://medium.com/ecmastack">Blog</a>
-      {{#link-to "contact"}}Contact{{/link-to}}
+  <div class="container-fluid">
+    <div class="row justify-content-between align-items-center">
+      <div class="col-md-2 logo">
+        {{#link-to "index"}}<img src="/images/logo.svg" alt="logo" />{{/link-to}}
+      </div>
+      <div class="col-md-6 navigation text-md-right col-sm-12">
+        {{#link-to "about"}}About{{/link-to}}
+        {{#link-to "services"}}Services{{/link-to}}
+        {{#link-to "about"}}Clients{{/link-to}}
+        <a href="https://medium.com/ecmastack">Blog</a>
+        {{#link-to "contact"}}Contact{{/link-to}}
+      </div>
     </div>
   </div>
 

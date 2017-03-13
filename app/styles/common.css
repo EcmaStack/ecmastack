@@ -1,9 +1,31 @@
+.pink-gradient {
+  background: $pink;
+  background: -moz-linear-gradient(124deg,  $pink 0%, $red-pink 100%);
+  background: -webkit-linear-gradient(124deg,  $pink 0%,$red-pink 100%);
+  background: linear-gradient(135deg,  $pink 0%,$red-pink 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#{$pink}", endColorstr="#{$red-pink}",GradientType=1 );
+}
+
 .btn {
+  @extend .pink-gradient;
   color: #fff;
   text-transform: uppercase;
-  background: #E22A70;
-  border-radius: 3px;
-  padding: 20px 15px;
+  border-radius: 4px;
+  padding: 25px 34px;
+  font-size: 18px;
+  border: 0;
+  cursor: pointer;
+  transition: all .3s;
+
+  &:hover, &:focus {
+    outline: none;
+    background: #e53465;
+    background: -moz-linear-gradient(124deg,  #e53465 0%, #e53465 100%);
+    background: -webkit-linear-gradient(124deg,  #e53465 0%,#e53465 100%);
+    background: linear-gradient(135deg,  #e53465 0%,#e53465 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#e53465", endColorstr="#e53465",GradientType=1 );
+    box-shadow: none;
+  }
 }
 
 h2 {
