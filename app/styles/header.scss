@@ -11,8 +11,12 @@
   height: 800px;
 }
 
-.services-page-header.header{
+.services-page-header.header {
   @extend .pink-gradient;
+}
+
+.services-page-header.header,
+.work-page-header.header {
   margin-top: 0;
   padding-bottom: 0;
 
@@ -37,6 +41,10 @@
       }
     }
   }
+}
+
+.work-page-hero-img {
+  margin-top: -78px;
 }
 
 .navigation a {

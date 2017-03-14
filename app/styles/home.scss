@@ -337,8 +337,9 @@
   }
 
   .client-logo {
-    flex: 1;
     max-height: 54px;
+    flex: 0 0 auto;
+
     @include media-breakpoint-only(xs) {
       width: 30%;
       margin: 1%;
