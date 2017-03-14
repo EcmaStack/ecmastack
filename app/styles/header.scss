@@ -11,10 +11,32 @@
   height: 800px;
 }
 
-.services-page-header.header,
-.services-page .home-hero {
-  background: #e22a70;
+.services-page-header.header{
+  @extend .pink-gradient;
   margin-top: 0;
+  padding-bottom: 0;
+
+  .home-intro {
+    margin-top: 46px;
+  }
+
+  .home-hero {
+    height: 440px;
+
+    .site-title {
+      margin-bottom: 22px;
+    }
+
+    .home-rocket {
+      height: 385px;
+      flex-basis: 373px;
+      background-size: contain;
+
+      img {
+        margin: 0 110px;
+      }
+    }
+  }
 }
 
 .navigation a {

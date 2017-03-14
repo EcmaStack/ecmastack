@@ -105,12 +105,25 @@
   padding-top: 128px;
   padding-bottom: 134px;
 
+  .services-page & {
+    padding-top: 71px;
+  }
+
   &.container {
     max-width: 980px;
   }
 
   .process-block {
     margin-bottom: 28px;
+
+    .services-page &:nth-child(5) {
+      margin-top: 135px;
+    }
+
+    .services-page &:nth-child(6),
+    .services-page &:nth-child(7) {
+      margin-top: 100px;
+    }
   }
 
   .block-title {
@@ -121,6 +134,7 @@
   .block-description {
     font-size: 18px;
     color: #4F678B;
+    line-height: 30px;
   }
 }
 
