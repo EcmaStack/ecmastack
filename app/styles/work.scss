@@ -1,3 +1,60 @@
 .work-clients {
   background: #f5faff;
+  padding: 44px 0;
+
+  .client-logo {
+    max-height: 64px;
+    margin: 24px 15px;
+  }
+}
+
+.project-wrapper {
+  margin: 94px auto 110px;
+  padding: 0 80px;
+  font-size: 18px;
+  line-height: 30px;
+
+  .project-logo {
+    margin-bottom: 46px;
+  }
+
+  .project-demands {
+    color: $blue;
+  }
+
+  .project-description {
+    margin: 10px auto;
+    color: $metallic-blue;
+  }
+}
+
+.review {
+  margin: 170px auto 118px;
+  padding: 0 80px;
+  color: $metallic-blue;
+  
+  .review-body {
+    background: #f5faff;
+    font-size: 36px;
+    line-height: 42px;
+    padding: 35px 73px 40px;
+    box-shadow: 0 10px 70px rgba(0, 0, 0, .3);
+  }
+  
+  .review-author {
+    color: #E22A70;
+    font-size: 18px;
+    margin-top: 22px;
+  }
+}
+
+.short-description {
+  @extend .pink-gradient;
+  color: #fff;
+  padding: 110px 0;
+  font-size: 24px;
+
+  .desc-item {
+    margin-top: 36px;
+  }
 }
